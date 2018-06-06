@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  //background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  //right: ;
+  margin: auto;
+  background-image: url("../../images/logo.png");
+}

@@ -1,8 +1,8 @@
 .slide-3 {
-    background-color: #9993c1;
+    background-color: white;
     .item-image {
-        width: 18rem;
-        height: 18rem;
+        width: 8rem;
+        height: 8rem;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -11,18 +11,16 @@
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../images/github-3.png');
+        background-image: url('../../images/qianbuyue.png');
     }
-    .item-text {
-        width: 18rem;
-        color: #fff;
-        font-size: 1.2rem;
-        font-weight: bold;
+    .introduction{
+        width: 17rem;
+        left: 1rem;
+        right: 1rem;
+        font-size: 0.7rem;
+        font-weight: lighter;
         position: absolute;
-        top: 24rem;
-        left: 0;
-        right: 0;
         margin: 0 auto;
-        text-align: center;
+        top: 5rem;
     }
 }
