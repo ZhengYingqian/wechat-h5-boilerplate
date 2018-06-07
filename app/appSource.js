@@ -15,7 +15,7 @@ var express = require('express'),
 app.set('port', process.env.PORT || 4331);
 app.engine('.html', ejs.__express);
 app.set('view engine', 'html'); //替换文件扩展名ejs为html
-app.use(express.favicon());
+// app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
