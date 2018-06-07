@@ -33,7 +33,7 @@ if (app.get('env') === 'development') {
 // angular启动页
 app.get('/', function (req, res) {
   //res.sendfile('medWeb1.0/index.html');
-    res.sendfile('index.html');
+    res.sendfile('dist/index.html');
 });
 
 server.listen(app.get('port'), function () {
